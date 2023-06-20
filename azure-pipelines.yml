@@ -9,7 +9,7 @@ trigger:
 pool:
   name: MyAgent
   demands:
-   - agent.name -equals MyAgent
+   - agent.name -equals VIDYA
 
 variables:
   solution: '**/*.sln'
